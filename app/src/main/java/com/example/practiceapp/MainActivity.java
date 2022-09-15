@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void addThreeForTeamA(View view) {
         scoreTeamA += 3;
-        displayForTeamB(scoreTeamA);
+        displayForTeamA(scoreTeamA);
     }
 
     public void addOneForTeamB(View view) {
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void addThreeForTeamB(View view) {
         scoreTeamB += 3;
-        displayForTeamA(scoreTeamB);
+        displayForTeamB(scoreTeamB);
     }
 
     public void reset(View view){
