@@ -37,12 +37,12 @@ public class MainActivity extends AppCompatActivity {
      */
     public void addThreeForTeamA(View view) {
         scoreTeamA += 3;
-        displayForTeamA(scoreTeamA);
+        displayForTeamB(scoreTeamA);
     }
 
     public void addOneForTeamB(View view) {
         scoreTeamB ++;
-        displayForTeamA(scoreTeamB);
+        displayForTeamB(scoreTeamB);
     }
 
     /**
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void addTwoForTeamB(View view) {
         scoreTeamB += 2;
-        displayForTeamA(scoreTeamB);
+        displayForTeamB(scoreTeamB);
     }
 
     /**
